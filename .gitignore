@@ -1,0 +1,10 @@
+# local environment and build output
+.venv/
+__pycache__/
+third_party/
+models/
+
+# runtime output (webcam frames are private, never commit them)
+nav_logs/
+camera_test.jpg
+*.log
